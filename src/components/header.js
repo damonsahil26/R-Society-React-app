@@ -1,20 +1,22 @@
 import React from "react";
 
-
+import AnimatedButton from "./animated_button"
 function Header(){
     
     return <div>
         <header className="header">
         <div className="logo-box">
-            <img className="logo" src ="./../images/logo-white.png" alt="logo"></img>            
+            <img className="logo" src ="./../images/logo_main.png" alt="logo"></img>            
         </div>
-        <div class=
+        <div className=
         "text-box">
-    <h1 class="heading-primary">
-    <span class="heading-primary-main">R:SOCIETY</span>
-    <span class="heading-primary-sub">You can make a change</span>
+    <h1 className="heading-primary">
+    <span className="heading-primary-main">R:SOCIETY</span>
+    <span className="heading-primary-sub">You can make a change</span>
     </h1>
+    <AnimatedButton />
     </div>
+ 
     </header>
   
     </div>;
